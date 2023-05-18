@@ -36,18 +36,19 @@ body {
     height: 250px;
 }
 
-
+h1{
+    text-align: center;
+}
 
 /*Menu*/
 
 nav{
     position: absolute;
     top: 150px;
-    right: 0px;
 }
 nav li{
     display: inline;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 15px;   
 }
 
 nav a{
@@ -56,6 +57,7 @@ nav a{
     font-weight: bold; /* Texto negrita */
     font-size: 22px; /* tamaño */
     text-decoration: none; /* Saco subrayado */
+    
     padding: 10px;
 }
 
@@ -64,7 +66,7 @@ nav a:hover{
 }
 
 /*Menu imagenes*/
-.nav2{
+/*.nav2{
     top: 250px;
     right: 0px;
 }
@@ -79,7 +81,7 @@ nav a:hover{
 .nav2 li{
     margin: 0 0 0 -5px;
 }
-
+*/
 
 /*slider*/
 
