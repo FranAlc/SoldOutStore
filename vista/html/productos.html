@@ -12,21 +12,28 @@
     <title>Productos - Sould out Store</title>
 </head>
 <body class="grid-body">
+<script src="/controlador/productos.js"></script>
+    
+
     <!--style="display: none;"-->
     <header>
         <div class="header-grid">
         <!--imagen del header-->    
         <img src="/img/logo2.png" width="180px" height="60px" >
             <!--boton menu-->
-            <div class="boton">
-            <img src="/img/menu.png" width="40px" height="40px"></a>
-            <button class="btn" alt="boton"></button>
-            <div class="submenu">
+            <div id="boton" class="menu_desplegable">
+            <img src="/img/menu.png" id="icon_menu" width="40px" height="40px"></a>
+            <button id="btn" onclick="show_menu();" alt="boton"></button>
+            
+            <!--submenu-->
+            <div id="submenu" class="menu_desplegable2">
+                <button id="btn2" onclick="hide_menu()" alt="boton"></button>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="contacto.html">Contacto</a></li>
                     <li><a href="informacion.html">Información</a></li>
                 </ul>
+                <img src="/img/menu.png" id="icon_menu" width="40px" height="40px"></a>
             </div>
             </div>
             <!--NAVEGADOR-->
@@ -45,7 +52,7 @@
     
     <p class="p-envios">Envios gratis a todo el pais a partir de $30.000</p>
 
-    <article class="sidebar">SIDEBAR</article>
+    <section class="sidebar">SIDEBAR</section>
     
     <article class="main">
         <section>foto 1</section>
