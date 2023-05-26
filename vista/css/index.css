@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Poppins', sans-serif;
     
 }
 body {
@@ -9,6 +9,7 @@ body {
     height: auto;
     margin: 0 auto;
     background: #cfccd0;
+    
 }
 
 /*Header*/
